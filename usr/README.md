@@ -1,6 +1,6 @@
-# couldai_user_app
+# GalleganCares
 
-A new Flutter project.
+A marketing and CRM app for Gallegan College.
 
 ## Getting Started
 

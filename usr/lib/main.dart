@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:couldai_user_app/screens/home_screen.dart';
-import 'package:couldai_user_app/screens/survey_screen.dart';
-import 'package:couldai_user_app/screens/thank_you_screen.dart';
+import 'screens/home_screen.dart';
+import 'screens/survey_screen.dart';
+import 'screens/thank_you_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Student CRM',
+      title: 'GalleganCares',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),

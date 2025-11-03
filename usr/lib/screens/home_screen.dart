@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('College Marketing CRM'),
+        title: const Text('GalleganCares'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: Center(
@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/survey');
                 },
-                child: const Text('Start Survey'),
+                child: const Text('We want to get to know you well'),
               ),
             ],
           ),
